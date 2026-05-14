@@ -1,3 +1,25 @@
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
+  body {
+    background: #FFF5F7;
+    font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  }
+
+  @keyframes dropIn {
+    from { opacity: 0; transform: translateY(-8px) scale(0.97); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+  }
+
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #FFF5F7 inset;
+    -webkit-text-fill-color: #2D1520;
+  }
+
+  input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #FFF5F7 inset;
+    -webkit-text-fill-color: #2D1520;
+  }
+  
 .counter {
   font-size: 16px;
   padding: 5px 10px;

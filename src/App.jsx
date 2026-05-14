@@ -9,6 +9,7 @@ import ChatList from './pages/ChatList';
 import ChatRoom from './pages/ChatRoom';
 import MyPage from './pages/MyPage';
 import Notification from './pages/Notification';
+import KakaoCallback from './pages/KakaoCallback';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <Route path="/chat/:id" element={<ChatRoom />} />
       <Route path="/mypage" element={<MyPage />} />
       <Route path="/notification" element={<Notification />} />
+      <Route path="/kakao/callback" element={<KakaoCallback />} />
     </Routes>
   );
 }
